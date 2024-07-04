@@ -1,29 +1,31 @@
 import com.krab.lazy.*;
 import processing.core.PApplet
+import utils.Utils
 
 class Sketch : PApplet() {
     companion object {
         fun run() {
-            val art = Sketch()
-            art.runSketch()
+            val sketch = Sketch()
+            sketch.runSketch()
         }
     }
 
-    lateinit var gui: LazyGui
+    private lateinit var gui: LazyGui
 
     override fun settings() {
-        size(800,800,P2D)
+        fullScreen(P2D)
     }
 
     override fun setup() {
-        this.gui = LazyGui(this)
+        Utils.setupWindowBorderless(this, 800, 800, 10)
+        gui = LazyGui(this)
     }
 
     override fun draw() {
-        background(gui.colorPicker("bg").hex);
+        background(gui.colorPicker("bg").hex)
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     Sketch.run()
 }
