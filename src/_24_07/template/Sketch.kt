@@ -26,6 +26,7 @@ class Sketch : PApplet() {
 
     override fun setup() {
         Utils.setupWindowBorderless(this, 800, 800, 10)
+        frameRate(144F)
         initCanvas()
         colorMode(HSB, 1f, 1f, 1f, 1f)
         gui = Utils.setupGui(this)
