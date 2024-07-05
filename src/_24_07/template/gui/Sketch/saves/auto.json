@@ -767,6 +767,11 @@
         },
         {
           "className": "SaveItemNode",
+          "path": "saves/1",
+          "type": "TRANSIENT"
+        },
+        {
+          "className": "SaveItemNode",
           "path": "saves/auto",
           "type": "TRANSIENT"
         }
@@ -776,7 +781,12 @@
       "type": "FOLDER"
     },
     {
-      "hexString": "FF00FFFF",
+      "className": "ButtonNode",
+      "path": "fullScreen",
+      "type": "TRANSIENT"
+    },
+    {
+      "hexString": "FF7168A8",
       "children": [
         {
           "className": "ColorPreviewNode",
@@ -784,21 +794,21 @@
           "type": "TRANSIENT"
         },
         {
-          "valueFloat": 0.5,
+          "valueFloat": 0.6901041865348816,
           "valueFloatPrecision": 0.01,
           "className": "HueNode",
           "path": "bg/hue",
           "type": "VALUE"
         },
         {
-          "valueFloat": 1.0,
+          "valueFloat": 0.380952388048172,
           "valueFloatPrecision": 0.01,
           "className": "SaturationNode",
           "path": "bg/sat",
           "type": "VALUE"
         },
         {
-          "valueFloat": 1.0,
+          "valueFloat": 0.658823549747467,
           "valueFloatPrecision": 0.01,
           "className": "BrightnessNode",
           "path": "bg/br",
@@ -819,6 +829,193 @@
       ],
       "className": "ColorPickerFolderNode",
       "path": "bg",
+      "type": "FOLDER"
+    },
+    {
+      "hexString": "7A98F2B7",
+      "children": [
+        {
+          "className": "ColorPreviewNode",
+          "path": "sub/preview",
+          "type": "TRANSIENT"
+        },
+        {
+          "valueFloat": 0.3907407522201538,
+          "valueFloatPrecision": 0.01,
+          "className": "HueNode",
+          "path": "sub/hue",
+          "type": "VALUE"
+        },
+        {
+          "valueFloat": 0.3719008266925812,
+          "valueFloatPrecision": 0.01,
+          "className": "SaturationNode",
+          "path": "sub/sat",
+          "type": "VALUE"
+        },
+        {
+          "valueFloat": 0.9490196108818054,
+          "valueFloatPrecision": 0.01,
+          "className": "BrightnessNode",
+          "path": "sub/br",
+          "type": "VALUE"
+        },
+        {
+          "valueFloat": 0.47843137383461,
+          "valueFloatPrecision": 0.01,
+          "className": "AlphaNode",
+          "path": "sub/alpha",
+          "type": "VALUE"
+        },
+        {
+          "className": "ColorPickerHexNode",
+          "path": "sub/hex",
+          "type": "VALUE"
+        }
+      ],
+      "className": "ColorPickerFolderNode",
+      "path": "sub",
+      "type": "FOLDER"
+    },
+    {
+      "children": [
+        {
+          "valueFloat": 154.0,
+          "valueFloatPrecision": 1.0,
+          "className": "SliderNode",
+          "path": "ring/count",
+          "type": "VALUE"
+        },
+        {
+          "valueFloat": 192.0,
+          "valueFloatPrecision": 1.0,
+          "className": "SliderNode",
+          "path": "ring/size",
+          "type": "VALUE"
+        },
+        {
+          "valueFloat": 157.0,
+          "valueFloatPrecision": 1.0,
+          "className": "SliderNode",
+          "path": "ring/radius",
+          "type": "VALUE"
+        },
+        {
+          "valueFloat": 64.0,
+          "valueFloatPrecision": 1.0,
+          "className": "SliderNode",
+          "path": "ring/amp",
+          "type": "VALUE"
+        },
+        {
+          "valueFloat": 57158.0,
+          "valueFloatPrecision": 100.0,
+          "className": "SliderNode",
+          "path": "ring/freq",
+          "type": "VALUE"
+        },
+        {
+          "valueFloat": 0.5,
+          "valueFloatPrecision": 0.1,
+          "className": "SliderNode",
+          "path": "ring/time",
+          "type": "VALUE"
+        },
+        {
+          "hexString": "0BB3B3B3",
+          "children": [
+            {
+              "className": "ColorPreviewNode",
+              "path": "ring/fill/preview",
+              "type": "TRANSIENT"
+            },
+            {
+              "valueFloat": 0.0,
+              "valueFloatPrecision": 0.01,
+              "className": "HueNode",
+              "path": "ring/fill/hue",
+              "type": "VALUE"
+            },
+            {
+              "valueFloat": 0.0,
+              "valueFloatPrecision": 0.01,
+              "className": "SaturationNode",
+              "path": "ring/fill/sat",
+              "type": "VALUE"
+            },
+            {
+              "valueFloat": 0.7019608020782471,
+              "valueFloatPrecision": 0.01,
+              "className": "BrightnessNode",
+              "path": "ring/fill/br",
+              "type": "VALUE"
+            },
+            {
+              "valueFloat": 0.04313725605607033,
+              "valueFloatPrecision": 0.01,
+              "className": "AlphaNode",
+              "path": "ring/fill/alpha",
+              "type": "VALUE"
+            },
+            {
+              "className": "ColorPickerHexNode",
+              "path": "ring/fill/hex",
+              "type": "VALUE"
+            }
+          ],
+          "className": "ColorPickerFolderNode",
+          "path": "ring/fill",
+          "type": "FOLDER"
+        },
+        {
+          "hexString": "0F919191",
+          "children": [
+            {
+              "className": "ColorPreviewNode",
+              "path": "ring/stroke/preview",
+              "type": "TRANSIENT"
+            },
+            {
+              "valueFloat": 0.0,
+              "valueFloatPrecision": 0.01,
+              "className": "HueNode",
+              "path": "ring/stroke/hue",
+              "type": "VALUE"
+            },
+            {
+              "valueFloat": 0.0,
+              "valueFloatPrecision": 0.01,
+              "className": "SaturationNode",
+              "path": "ring/stroke/sat",
+              "type": "VALUE"
+            },
+            {
+              "valueFloat": 0.5686274766921997,
+              "valueFloatPrecision": 0.01,
+              "className": "BrightnessNode",
+              "path": "ring/stroke/br",
+              "type": "VALUE"
+            },
+            {
+              "valueFloat": 0.05882352963089943,
+              "valueFloatPrecision": 0.01,
+              "className": "AlphaNode",
+              "path": "ring/stroke/alpha",
+              "type": "VALUE"
+            },
+            {
+              "className": "ColorPickerHexNode",
+              "path": "ring/stroke/hex",
+              "type": "VALUE"
+            }
+          ],
+          "className": "ColorPickerFolderNode",
+          "path": "ring/stroke",
+          "type": "FOLDER"
+        }
+      ],
+      "className": "FolderNode",
+      "path": "ring",
       "type": "FOLDER"
     }
   ],
